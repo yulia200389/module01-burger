@@ -155,18 +155,19 @@ header {
     font-size: 14px; 
     text-transform: uppercase;
     background-color: #F37335; 
-    padding-top: 10px;
+    padding-top: 6px;
+    padding-bottom: 5px;
     width: 95px;
-    height: 28px;
     text-align: center;   
     border-radius: 14px; 
     margin-bottom: 7px;
+    margin-top: 0px;
 }
 .banner-title {
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 900;
     font-size: 60px;
-    margin-bottom: 10px;
+    margin-bottom: 14px;
 }
 .banner-text {
     font-family: 'Open Sans', san s-serif;
@@ -185,7 +186,7 @@ header {
     text-transform: uppercase;    
     background-color: #FBB731;
     text-align: center;
-    padding: 20px 10px;
+    padding: 18px 25px;
     display: inline-block;
     font-size: 14px;
     font-weight: 700;
