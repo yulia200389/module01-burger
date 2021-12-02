@@ -144,7 +144,7 @@ header {
     color: #FFFFFF;
     background-image: url(../image/banner.jpg);    
     background-size: cover;
-    padding: 100px 100px;  
+    padding: 50px 100px;  
     background-position: center center;  
     margin-bottom: 100px;
 }
