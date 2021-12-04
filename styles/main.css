@@ -2,7 +2,7 @@ body {
     font-family: 'Nunito Sans', sans-serif;
 }
 .container {
-    max-width: 1182px;
+    max-width: 1px;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
@@ -87,6 +87,8 @@ header {
     text-align: center;
     color: #FFFFFF;
     background-image: url(../image/bg.jpg);
+    max-width: 1920px;
+    align-items: center;
     background-size: cover;
     background-position: center center;
     padding: 142px 0;
@@ -144,9 +146,9 @@ header {
     color: #FFFFFF;
     background-image: url(../image/banner.jpg);    
     background-size: cover;
-    padding: 50px 100px;  
+    padding: 96px 100px 100px;  
     background-position: center center;  
-    margin-bottom: 100px;
+    margin-bottom: 68px;
 }
 .banner-title span {
     display: block;
@@ -155,19 +157,20 @@ header {
     font-size: 14px; 
     text-transform: uppercase;
     background-color: #F37335; 
-    padding-top: 6px;
+    padding-top: 9px;
     padding-bottom: 5px;
     width: 95px;
     text-align: center;   
     border-radius: 14px; 
-    margin-bottom: 7px;
+    margin-bottom: 10px;
     margin-top: 0px;
 }
 .banner-title {
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 900;
     font-size: 60px;
-    margin-bottom: 14px;
+    margin-bottom: 12px;
+    margin-top: 0px;
 }
 .banner-text {
     font-family: 'Open Sans', san s-serif;
@@ -193,3 +196,157 @@ header {
     border: 1px solid #000000;
     border-radius: 5px;    
 }
+ .menu-header {
+     margin-top: 10;
+     margin-top: 50px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+    }
+.menu-title {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: 44px;
+    text-transform: uppercase;
+    color: #1B2A49;  
+}
+.menu-select {
+    border: 1px solid #DEDEDE;
+    padding: 10px 30px;    
+    border-radius: 22px;
+    color: #443737;
+    font-size: 15px;
+    appearance: none;
+    flex-basis: 279px;
+    background-image:url(..//image/arrow.svg);
+    background-size: 12.79px 7.75px;
+    background-repeat: no-repeat;
+    background-position: 90% center;
+}
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px 20px;
+    margin-bottom: 65px;
+}
+.menu-grid-cover {
+    width: 100%;
+    height: 430px;
+    position: relative;
+    overflow: hidden;
+}
+.menu-grid-cover  img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    width: 100%;
+    height: 430px;
+}
+.menu-grid-title{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: #1B2A49;
+    text-align: center;
+    margin-top: 23px;
+    margin-bottom: 7px;
+}
+.menu-grid-price {
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: center;
+    font-weight: 800;
+    font-size: 20px;
+    color: #979797;   
+    margin-top: 11px;
+}
+.menu-grid-btn {
+    max-width: 152px;
+    max-height: 38px;
+    background: #FBB731;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 10px 35px 10px 29px;      
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 11px;
+    border: none;
+    position: relative;
+    left: 114px;
+    top: 1px;
+    margin-bottom: 0px;
+}
+.menu-grid-ikon {
+    background-image:url(../image/menu/cart-menu.svg);   
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    justify-content: center;
+}
+.menu-grid-text {
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    display: inline-block;
+    justify-content: center;    
+}
+footer {
+    background: #1E2F40;
+    color: #fff;
+    padding-top: 117px;
+    padding-bottom: 106px;
+}
+
+.logo {
+    width: 63px;
+    height: 56px;
+}
+.item {
+    flex: 0 0 auto;
+}
+.item h2 {
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+.item ul,
+.tel ul {
+    list-style-type: none;
+}
+.item li {
+    margin-bottom: 9px;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    color: #FAF9F9;
+    font-weight: 700;
+    line-height: 24px;
+}
+.item a {
+    color: #DEDEDE;
+    text-decoration: none;
+    font-weight: 400;
+}
+.item span {
+    color: #DEDEDE;
+    display: block;
+    font-weight: 400;
+    margin-bottom: 2px;
+}
+.tel ul {
+    font-size: 20px;
+    color: #FBB731;
+}
+.tel li {
+    margin-bottom: 12px;
+}
+
+
+
+
+    
