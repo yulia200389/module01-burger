@@ -308,7 +308,7 @@ header {
     color: #fff;
     padding-top: 117px;
     padding-bottom: 106px;
-    margin-top: 141px;
+    margin-top: 50px;
 }
 .footer-box {
     display: flex;
@@ -361,7 +361,7 @@ header {
 .footer {
     background: #1E2F40;
     color: #fff;
-    padding-top: 117px;
+    padding-top: 43px;
     padding-bottom: 106px;
 }
 .logo {
@@ -384,7 +384,7 @@ header {
 }
 .item li {
     margin-bottom: 9px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     color: #FAF9F9;
     font-weight: 700;
