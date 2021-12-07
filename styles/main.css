@@ -159,8 +159,8 @@ header {
     font-size: 14px; 
     text-transform: uppercase;
     background-color: #F37335; 
-    padding-top: 9px;
-    padding-bottom: 4px;
+    padding-top: 6px;
+    padding-bottom: 6px;
     width: 95px;
     text-align: center;   
     border-radius: 14px; 
@@ -296,6 +296,8 @@ header {
     justify-content: center;
 }
 .menu-grid-text {
+    font-family: 'Nunito Sans', sans-serif;
+    color:#1E2F40;
     font-weight: 700;
     font-size: 14px;
     text-align: center;
@@ -308,7 +310,8 @@ header {
     color: #fff;
     padding-top: 117px;
     padding-bottom: 106px;
-    margin-top: 50px;
+    margin: 44px 0px  0px 0px;
+    margin-top: 140px;
 }
 .footer-box {
     display: flex;
@@ -427,23 +430,23 @@ header {
 }
 .wrapper {
     max-width: 1180px;
-    margin: 0 auto;
+    margin: 0px auto;
     display: flex;
     justify-content: space-between;
 }
 .content {
     color:#FAF9F9;
     flex: 0 0 524px;
-    padding-top: 170px;
+    padding-top: 169px;
+    padding-left: 12px;
     padding-bottom: 170px;
 }
 .content-title {
     font-size: 120px;
     font-weight: 800;
     text-transform: uppercase;
-    margin-bottom: 40px;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 30px;
 }
 .content-title span{
     color: #FBB731;
@@ -453,11 +456,12 @@ header {
     margin-bottom: 10px;
 
 }
-.content-text p {
+.content-text {
     font-family: 'Open Sans', sans-serif;
     font-size: 19px;
     line-height: 1.4;
-    margin-bottom: 42px;
+    margin-bottom: 50px;
+    color: #DEDEDE;
 }
 .content-link,
 .promo a {
@@ -465,7 +469,7 @@ header {
     background-color: #FBB731;
     border-radius: 5px;
     text-decoration: none;
-    padding: 20px 45px;
+    padding: 20px 48px;
     display: inline-block;
     text-transform: uppercase;
     font-size: 14px;
@@ -485,10 +489,11 @@ header {
 .main img {
     width: 829px;
     position: absolute;
-    right: -168px;
+    right: -151px;
+    top: 88px;
 }
 .promo {
-    padding-top: 186px;
+    padding-top: 181px;
     padding-bottom: 140px;
 }
 .promo-left, 
@@ -502,27 +507,27 @@ header {
 }
 .promo-left {
     background-image: url(../image/promo-legt.png);
-    padding: 116px 50px;
+    padding: 117px 51px;
 }
 .promo-right {
     background-image: url(../image/promo-right.png);
-    padding: 102px 50px;
+    padding: 98px 49px;
 }
 .sale {
   font-size: 14px;
   font-weight: 900;  
   background: #F37335;
-  padding: 5px 19px;
+  padding: 5px 20px;
   border-radius: 14px;
   display: inline-block;
   text-transform: uppercase;
-  margin-bottom: 3px;
+  margin-bottom: 7px;
   margin-top: 0px;
 }
 .cost {
     font-size: 60px;
     font-weight: 900;
-    margin-bottom: 8px;
+    margin-bottom: 12px;
     margin-top: 0;
 
 }
@@ -531,6 +536,7 @@ header {
     font-family: 'Open Sans', sans-serif;
     font-size: 15px;
     line-height: 24px;
+    margin: 0;
 }
 .promo-left .promo-description{
     max-width: 392px;
@@ -539,12 +545,12 @@ header {
 }
 .promo-right .promo-description {
     max-width: 299px;
-    margin-bottom: 20px;
+    margin-bottom: 21px;
     margin-left: 0;
 }
 .free {
    font-size: 44px;
    font-weight: 700;
-   margin-bottom: 10px;
-   margin-top: 0;
+   margin-bottom: 13px;
+   margin-top: 7px;
 }
