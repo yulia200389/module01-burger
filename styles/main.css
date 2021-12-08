@@ -149,7 +149,7 @@ header {
     background-image: url(../image/banner.jpg);    
     background-size: cover;
     padding: 96px 100px 100px;  
-    background-position: center center;  
+    background-position: 0 center;  
     margin-bottom: 80px;
 }
 .banner-title span {
@@ -578,4 +578,37 @@ header {
    font-weight: 700;
    margin-bottom: 13px;
    margin-top: 7px;
+}
+/* Responsive */
+
+@media (max-width: 1000px) {
+    .container {
+        max-width: 835px;
+    }
+    .header-logo {
+        width: 150px;
+        height: 48px;
+        background-size: contain;
+    }
+    .header-nav {
+        gap: 22px;
+    }
+    .header-itom {
+        flex-basis: 75.5%;
+    }
+    .bg {
+        margin-bottom: 72px;
+    }
+    .banner-box {
+        padding: 96px 40px 100px;
+        background-position: -80px center;
+    }
+    .menu-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px 15px;
+    }
+    .menu-grid:last-child {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
 }
