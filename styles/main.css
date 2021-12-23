@@ -348,6 +348,7 @@ header {
     text-decoration: none;
     font-weight: 400;
 }
+
 .item span {
     color: #DEDEDE;
     display: block;
@@ -631,15 +632,67 @@ right: 20px
     .footer-list + .footer-list-tel{
         display: none;  
     }
+    .main img {
+        width: 763px;
+        position: absolute;
+        right: -175px;
+        top: 21px;
+    }
+    .content-title span {
+        font-size: 27px;
+    }
+    .content-title {
+        font-size: 92px;
+    }
 }
 
 @media (min-width: 766px) {
     .header-burger {
         display: none;
     }
+    
 }
 
 @media (max-width: 1000px) {
+    .wrapper {
+        max-width: 962px;
+        margin: 0;
+        gap: 10px;
+    }
+    .content {
+        padding-top: 42px;
+        padding-left: 30px;
+        padding-bottom: 122px;
+    }
+    .content-title {
+        margin-top: -60px;
+        font-weight: 800;
+        font-size: 86px;
+        margin-bottom: 23px;
+    }
+    .content-title span {
+        font-weight: bold;
+        font-size: 22px;
+    }
+    .content-text {
+        font-weight: normal;
+        font-size: 15px;
+    }
+    .visual-bg {
+        width: 259px;
+        position: absolute;
+        right: 30px;
+    }
+    .main img { 
+        width: 600px;
+        right: -59px;
+        top:-47px;
+    }
+    .promo {
+        padding-top: 124px;
+        padding-bottom: 0px;
+    }
+    
     .container {
         max-width: 738px;
     }
@@ -698,7 +751,51 @@ right: 20px
         font-size: 44px;
     }
 
-    @media (max-width: 765px) {
+    @media (max-width: 768px) {
+        .main img { 
+            width: 481px;
+            right: -45px;
+            top: 163px;
+        }
+        .content-title {
+            font-size: 80px;
+        } 
+
+        
+        .content-text {
+            font-weight: normal;
+            font-size: 13px;
+            line-height: 1.8;
+        }
+        .promo-left {
+            padding: 112px 24px;
+        }
+        .promo-right {
+            padding: 112px 21px;
+        }
+        .sale {
+            font-weight: 900;
+            font-size: 14px;
+            padding: 5px 20px;
+            margin-bottom: 10px;
+        }
+        .cost {
+            font-weight: 900;
+            font-size: 60px;
+        }
+        .free {
+            font-weight: bold;
+            font-size: 44px;
+        }
+        .footer-tel .footer-list-tel {
+            display: none;
+
+        .footer-list + .footer-list-tel{
+            display: block;  
+        }
+        .footer {
+            padding-bottom: 15px;
+        }
         nav {
             display: none;
         }
@@ -850,6 +947,6 @@ right: 20px
             margin-bottom: 40px;
         }
         #modal .header-nav {
-            min-width: 200px;
+            min-width: 300px;
             
 }     
