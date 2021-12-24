@@ -5,7 +5,7 @@ body {
     max-width: 1180px;
     margin: 0 auto;
     padding-left: 15px;
-    padding-right: 15px;
+    padding-right: 20px;
 }
 header {
     border-bottom: 1px solid #DEDEDE;
@@ -151,7 +151,7 @@ header {
     background-size: cover;
     padding: 96px 100px 100px;  
     background-position: 0 center;  
-    margin-bottom: 67px;
+    margin-bottom: 69px;
 }
 .banner-title span {
     display: block;
@@ -219,7 +219,7 @@ header {
 }
 .menu-select {
     border: 1px solid #DEDEDE;
-    padding: 10px 30px;    
+    padding: 13px 30px;    
     border-radius: 22px;
     color: #443737;
     font-size: 15px;
@@ -365,7 +365,7 @@ header {
 .footer {
     background: #1E2F40;
     color: #fff;
-    padding-top: 43px;
+    padding-top: 116px;
     padding-bottom: 106px;
 }
 .logo {
@@ -540,15 +540,15 @@ header {
     padding: 98px 46px;
 }
 .sale {
-  font-size: 14px;
-  font-weight: 900;  
-  background: #F37335;
-  padding: 5px 20px;
-  border-radius: 14px;
-  display: inline-block;
-  text-transform: uppercase;
-  margin-bottom: 7px;
-  margin-top: 0px;
+    font-size: 14px;
+    font-weight: 900;  
+    background: #F37335;
+    padding: 5px 20px;
+    border-radius: 14px;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-bottom: 7px;
+    margin-top: 0px;
 }
 .cost {
     font-size: 60px;
@@ -612,11 +612,14 @@ header {
     min-width: 300px;
     margin: 0 auto;
     align-items: center;
+    color: #443737;
 }
 .burger-close {
 width: 22px;
 height: 22px;
 border-color: transparent;
+background-color: transparent;
+color: #443737;
 background-image: url(../image/close.svg);
 background-repeat: no-repeat;
 background-size: contain;
@@ -649,8 +652,7 @@ right: 20px
 @media (min-width: 766px) {
     .header-burger {
         display: none;
-    }
-    
+    }    
 }
 
 @media (max-width: 1000px) {
@@ -691,8 +693,7 @@ right: 20px
     .promo {
         padding-top: 124px;
         padding-bottom: 0px;
-    }
-    
+    }    
     .container {
         max-width: 738px;
     }
@@ -749,9 +750,13 @@ right: 20px
     .menu-title {
         font-weight: 700;
         font-size: 44px;
+        }
     }
 
     @media (max-width: 768px) {
+        nav {
+             display: none;
+         }      
         .main img { 
             width: 481px;
             right: -45px;
@@ -759,9 +764,7 @@ right: 20px
         }
         .content-title {
             font-size: 80px;
-        } 
-
-        
+        }         
         .content-text {
             font-weight: normal;
             font-size: 13px;
@@ -789,7 +792,7 @@ right: 20px
         }
         .footer-tel .footer-list-tel {
             display: none;
-
+        }
         .footer-list + .footer-list-tel{
             display: block;  
         }
@@ -809,7 +812,9 @@ right: 20px
         .menu-grid-title {
             font-weight: 600;
             font-size: 30px;
+            }
         }
+
     @media (max-width: 625px) {
         footer {
             height: 450px;
@@ -836,14 +841,16 @@ right: 20px
             display: none;
         }
     }   
+
     @media (max-width: 567px) {
-        .breadcrumbs a {
-            font-size: 14px;
-        }
-        .title {
-            font-weight: 700;
-            font-size: 38px;
-        }
+
+    .breadcrumbs a {
+        font-size: 14px;
+    }
+    .title {
+        font-weight: 700;
+        font-size: 30px;
+    }
     .description {
         font-size: 12px;
     }
@@ -868,7 +875,6 @@ right: 20px
     }
     .menu-header {
             margin-bottom: 45px;
-        }
     }
     .menu-title {
         font-weight: 400;
@@ -895,13 +901,12 @@ right: 20px
     }
     .menu-grid-cover img {
         height: 100%;
-    }  
-   
+    }     
     .logo {
         display: block;
     }
-
 }
+
     @media (max-width: 360px) {
         .header-logo {
             width: 116px;
@@ -909,44 +914,46 @@ right: 20px
             background-size: contain;
         }
     }
+
     @media (max-width: 320px) {
-        .container {
-            max-width: 319px;
-        }
-        .menu-select {
-            padding-top: 8px;
-            padding-left: 15px;
-            font-size: 12px;
-            flex-basis: 0;
-        }
-        .banner-box{
-            background-position: 25% center;
-        } 
-        .menu-title {
-            font-size: 22px;
-            margin: 0;
-        }
-        .menu-grid-title {
-            font-size: 14px;
-        }
-        .menu-other .menu-grid-item {
-            flex: 0 0 138px;
-        }
-        .menu-other .menu-grid-cover,
-        .menu-other .menu-grid-cover img {
+    .container {
+        max-width: 319px;
+    }
+    .menu-select {
+        padding-top: 8px;
+        padding-left: 15px;
+        font-size: 12px;
+        flex-basis: 0;
+    }
+    .banner-box{
+        background-position: 25% center;
+    } 
+    .menu-title {
+        font-size: 22px;
+         margin: 0;
+    }
+    .menu-grid-title {
+        font-size: 14px;
+    }
+    .menu-other .menu-grid-item {
+         flex: 0 0 138px;
+    }
+    .menu-other .menu-grid-cover,
+    .menu-other .menu-grid-cover img {
         height: 119vw;
         width: 230px;
-        }
-        .footer {
-            margin-top: 20px;
-        }
-        .menu-header {
-            margin-top: 0px;
-        }
-        .menu-grid {
-            margin-bottom: 40px;
-        }
-        #modal .header-nav {
-            min-width: 300px;
-            
-}     
+    }
+    .footer {
+        margin-top: 20px;
+    }
+    .menu-header {
+        margin-top: 0px;
+    }
+    .menu-grid {
+        margin-bottom: 40px;
+    }
+     #modal .header-nav {
+        min-width: 300px;
+     }   
+}         
+    
