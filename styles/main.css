@@ -110,7 +110,7 @@ header {
 .breadcrumbs a {
     color: #DEDEDE;
     font-size: 15px;
-    font-family: 'Open Sans', san s-serif;
+    font-family: 'Open Sans', sans-serif;
     text-decoration: none;    
 }
 .breadcrumbs a:hover {
@@ -136,7 +136,7 @@ header {
     margin-bottom: 18px;       
 }
 .description {
-    font-family: 'Open Sans', san s-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 15px;  
     line-height: 1.7;  
     color: #FAF9F9;
@@ -154,7 +154,7 @@ header {
 }
 .banner-title span {
     display: block;
-    font-family: 'Open Sans', san s-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     font-size: 14px; 
     text-transform: uppercase;
@@ -175,7 +175,7 @@ header {
     margin-top: 0px;
 }
 .banner-text {
-    font-family: 'Open Sans', san s-serif;
+    font-family: 'Open Sans', sans-serif;
     width: 313px;
     font-size: 15px;
     font-weight: 400;
@@ -222,9 +222,6 @@ header {
     border-radius: 22px;
     color: #443737;
     font-size: 15px;
-    -webkit-appearance: none;
-       -moz-appearance: none;
-            appearance: none;
     flex-basis: 279px;
     background-image:url(..//image/arrow.svg);
     background-size: 12.79px 7.75px;
@@ -248,8 +245,7 @@ header {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
     width: 100%;
     height: 430px;
 }
@@ -720,7 +716,7 @@ right: 20px
     .menu-grid {
         grid-template-columns: repeat(2, 1fr);
         gap: 50px 15px;
-        margin-bottom: 65px;
+        margin-bottom: 5px;
     } 
     .footer-tel {
         display: none;
@@ -738,6 +734,7 @@ right: 20px
         overflow-x: scroll;
         overflow-y: hidden;
         padding-bottom: 50px;
+        gap: 5px;
     }
     .menu-other .menu-grid-item {
         flex: 0 0 281px;
@@ -792,14 +789,15 @@ right: 20px
             font-weight: bold;
             font-size: 44px;
         }
-        .footer-tel .footer-list-tel {
+        /* .footer-tel .footer-list-tel {
             display: none;
-        }
+        } */
         .footer-list + .footer-list-tel{
             display: block;  
         }
         .footer {
             padding-bottom: 15px;
+            margin-top: 61px;
         }
         nav {
             display: none;
@@ -809,7 +807,7 @@ right: 20px
         }
         .menu-other {
             overflow: hidden;
-            height: 606px;
+            height: 86vw;
         }
         .menu-header {
             margin-top: 0;
@@ -826,6 +824,16 @@ right: 20px
         }    
     }
 
+    @media (max-width: 705px) {
+        .menu-other {
+            height: 94vw;
+        } 
+    }
+    @media (max-width: 651px) {
+        .menu-other {
+            height: 95vw;
+        }
+    }
     @media (max-width: 625px) {
        
         .logo {
@@ -837,8 +845,10 @@ right: 20px
         .button-up {
             display: none;
         }
+        .menu-other {
+            height: 108vw;
+        }
     }   
-
     @media (max-width: 567px) {
         .header {
             padding-top: 19px;
@@ -913,7 +923,7 @@ right: 20px
             padding: 9px 19px;
         }
         .menu-grid-cover {
-            height: ;
+            height: 56vw;
             margin-bottom: 10px;
         }
         .menu-other .menu-grid-item {
@@ -929,7 +939,7 @@ right: 20px
             height: 56vw;
         }
         .menu-other {
-            height: 108vw;
+            height: 107vw;
         }
         .menu-header {
             margin-top: 20px;
@@ -942,9 +952,7 @@ right: 20px
             padding-top: 60px;
             padding-bottom: 60px;
         }
-        .footer-tel {
-            display: block;
-        }
+        
         .footer-list + .footer-list-tel{
             display: none;  
         }
@@ -966,6 +974,10 @@ right: 20px
         .footer-tel {
             grid-area: tel;
         }
+        .footer-tel  {
+            display: block;
+            text-align: right;
+        }
     }
 
     @media (max-width: 360px) {
@@ -978,11 +990,10 @@ right: 20px
             font-size: 13px;
         }
         .menu-other {
-            height: 116vw;
+            height: 129vw;
+            margin-top: 17px;
         }
-        .menu-header {
-            margin-top: -7px;
-        }
+        
         .menu-other .menu-grid-cover {
             height: 56vw;
         }
@@ -1014,7 +1025,7 @@ right: 20px
     .menu-other .menu-grid-cover,
     .menu-other .menu-grid-cover img {
         height: 60vw;
-        width: 146px;
+        width: 139px;
     }
     .footer {
         margin-top: 20px;
@@ -1028,5 +1039,4 @@ right: 20px
      #modal .header-nav {
         min-width: 300px;
      }   
-}         
-    
+}   
